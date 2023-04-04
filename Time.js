@@ -6,10 +6,11 @@ function TimeUpdate()
  const Horas = Data.getHours()
 document.getElementById('HorarioAgora').innerHTML = `${Horas}:${Minutos}:${Segundos} `
 }
-document.getElementById('Dark-Mode').addEventListener('click',function(){
+setInterval(TimeUpdate,1000)
 
+function ModoEscuro()
+{
     document.querySelector('body').style.backgroundColor = '#191920'
     document.querySelector('body').style.color = 'rgb(221, 222, 223)'
-        
-})
-setInterval(TimeUpdate,1000)
+    
+}

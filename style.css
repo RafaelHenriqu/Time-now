@@ -4,6 +4,7 @@
     padding: 0px;
 font-family: monospace;
 }
+
 #Time{
      
     position: absolute;
@@ -12,7 +13,13 @@ font-family: monospace;
     transform: translate(-50%,-50%);
     text-align: center;
  min-width: 100px;
+
 }
 h1{
     font-size: 20vw;
 }
+
+ 
+
+/*
+    background-image: linear-gradient(100deg, #c000f2,#f0002f);

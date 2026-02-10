@@ -25,22 +25,6 @@ function Loading(){
 document.addEventListener("DOMContentLoaded",()=>{Loading()})
 document.addEventListener("dblclick",(e)=>{e.preventDefault()})
 document.addEventListener("contextmenu",(e)=>{e.preventDefault()})
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
 async function TimeUpdate() {
  try{
   const Api = await fetch("https://www.timeapi.io/api/time/current/zone?timeZone=America%2FSao_Paulo")

@@ -4,7 +4,9 @@
     padding: 0px;
 font-family: monospace;
 }
-
+*{
+    user-select: none;
+}
 #Time{
      
     position: absolute;

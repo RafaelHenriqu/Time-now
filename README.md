@@ -1,22 +1,22 @@
-# Time-now
+# ⏱️ Time-now
 
 ## Descrição do Projeto
 
-O **Time-now** é um projeto que desenvolvi durante meu aprendizado em programação. Inicialmente, ele apresentava a hora do computador do usuário, mas com o tempo percebi que poderia torná-lo muito mais útil e interessante. Decidi atualizar o projeto para que ele exiba a hora correta da região de **America/Sao_Paulo** (também conhecida como Brasília), utilizando a API [www.timeapi.io](https://www.timeapi.io).
+O **Time-now** é um projeto que desenvolvi durante meu aprendizado em programação. Inicialmente, ele apresentava a hora do computador do usuário, mas com o tempo percebi que poderia torná-lo muito mais útil e interessante. Decidi atualizar o projeto para que ele exiba a hora correta da região de **America/Sao_Paulo** (também conhecida como Brasília), utilizando a API [time.now]( https://time.now/developer)
 
-## Novidades da Versão Atual
+## 📜 Novidades da Versão Atual
 
 - **Fuso Horário Correto**: Agora, o site não exibe apenas a hora do computador do usuário, mas sim a hora atual de Brasília.
 - **Armazenamento de Tema**: Anteriormente, o sistema de temas não salvava as preferências do usuário. Agora, implementei o uso do **localStorage** para que o tema escolhido seja salvo e mantenha a preferência do usuário em visitas futuras.
 - **Código Aprimorado**: O código foi reestruturado e otimizado para funcionar de maneira mais eficiente e clara.
 
-## Tecnologias Utilizadas
+## 💾 Tecnologias Utilizadas
 
 - **HTML**: Estruturação do conteúdo do site.
 - **CSS**: Estilização e layout do site.
 - **JavaScript**: Lógica do funcionamento do site, incluindo a manipulação da API e armazenamento local.
 
-## Funcionamento
+## 💡Funcionamento
 
 - O horário é atualizado continuamente através da função `setInterval()`, que executa a atualização em intervalos regulares, garantindo que o usuário sempre veja a hora correta.
 
